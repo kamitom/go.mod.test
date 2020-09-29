@@ -8,3 +8,6 @@
 >
 > [EVERYTHING You SHOULD know about Go Modules](https://www.youtube.com/watch?v=Z1VhG7cf83M)
 > 
+
+> 1. custom package 要單玀一個folder?! (like pkg1 do)
+> 2. 要在 pkg1 folder 內執行 go build後，此 pkg1 才能被使用?!
