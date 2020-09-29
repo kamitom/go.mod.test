@@ -13,5 +13,5 @@ func main() {
 
 	fmt.Println("random data: ", random.String(20))
 
-	fmt.Println(stringrv.Reverse("hola, string rv"))
+	fmt.Println(stringrv.Reverse("hola, github/kamitom"))
 }
