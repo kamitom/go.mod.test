@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/kamitom/go.mod.test/pkg1"
+	"github.com/kamitom/go.mod.test/pkg2"
 
 	"github.com/appleboy/com/random"
 
@@ -18,7 +19,10 @@ func main() {
 	fmt.Println(stringrv.Reverse("hola, github/kamitom"))
 
 	// use my own package: pkg1
-	pkg1.HolaPkg()
+	pkg1.HolaPkg1()
 
 	fmt.Println(pkg1.GiveMeFakeFullName())
+
+	fmt.Println("random is: ", pkg2.TryRandom(18))
+
 }

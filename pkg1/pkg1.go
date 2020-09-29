@@ -6,8 +6,8 @@ import (
 	"syreclabs.com/go/faker"
 )
 
-func HolaPkg() {
-	fmt.Println("hola package 1 for test.")
+func HolaPkg1() {
+	fmt.Println("Hola pkg1 for test.")
 }
 
 func GiveMeFakeFullName() string {
