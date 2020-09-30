@@ -25,7 +25,11 @@ func main() {
 
 	fmt.Println("random is: ", pkg2.TryRandom(18))
 
-	//show pkg2 QuoteToMe()
-	fmt.Println(pkg2.QuoteToMe())
+	//show pkg2 QuoteToMeHello()
+	fmt.Println(pkg2.QuoteToMeHello())
 
+}
+
+func ModQuoteMeGo() {
+	fmt.Println(pkg2.QuoteToMeGo())
 }
