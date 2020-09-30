@@ -5,6 +5,7 @@ import (
 
 	"github.com/kamitom/go.mod.test/pkg1"
 	"github.com/kamitom/go.mod.test/pkg2"
+	"github.com/kamitom/go.mod.test/pkg3"
 
 	"github.com/appleboy/com/random"
 
@@ -28,8 +29,6 @@ func main() {
 	//show pkg2 QuoteToMeHello()
 	fmt.Println(pkg2.QuoteToMeHello())
 
-}
+	pkg3.ShowMeOSArgs()
 
-func ModQuoteMeGo() {
-	fmt.Println(pkg2.QuoteToMeGo())
 }
