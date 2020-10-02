@@ -33,4 +33,6 @@ func main() {
 
 	pkg3.TestArraySlice()
 
+	pkg3.KeyValuePairTest("tom")
+
 }

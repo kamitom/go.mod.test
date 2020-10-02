@@ -13,3 +13,15 @@ func TestArraySlice() {
 	// fmt.Println("hello?! TestArraySlice?!")
 
 }
+
+// KeyValuePairTest is ...
+func KeyValuePairTest(urname string) {
+	kvs := map[string]string{
+		"name":  urname,
+		"email": urname + "@pm.me",
+	}
+
+	for key, value := range kvs {
+		fmt.Println(key+":", value)
+	}
+}
