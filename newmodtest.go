@@ -31,4 +31,6 @@ func main() {
 
 	pkg3.ShowMeOSArgs()
 
+	pkg3.TestArraySlice()
+
 }
