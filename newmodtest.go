@@ -33,9 +33,29 @@ func main() {
 
 	pkg3.TestArraySlice()
 
-	var ttname = "hood"
+	// var ttname = "hood"
+	fmt.Println("please input a string below: ")
+	var yyname string
+	fmt.Scanln(&yyname)
 	const ccname = "nsa"
 
-	pkg3.KeyValuePairTest(ttname)
+	pkg3.KeyValuePairTest(yyname)
+
+	// test rune
+	fmt.Println('a')
+	fmt.Println('b')
+	fmt.Println('c')
+	fmt.Println('d')
+	fmt.Println('z')
+
+	fmt.Println("------")
+
+	// use var
+	var xx int
+	xx = 100
+	fmt.Println(xx)
+	xx = 200
+	fmt.Println(xx)
+	// xx = "tom"
 
 }
