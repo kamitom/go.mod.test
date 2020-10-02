@@ -14,4 +14,5 @@
 > - [EVERYTHING You SHOULD know about Go Modules](https://www.youtube.com/watch?v=Z1VhG7cf83M)
 >
 > - [Packages in Go](https://www.youtube.com/watch?v=sf7f4QGkwfE)
-
+>
+> - [under the hood](https://golang.design/under-the-hood/zh-cn/part1basic/ch01basic/go/)
