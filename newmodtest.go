@@ -33,6 +33,9 @@ func main() {
 
 	pkg3.TestArraySlice()
 
-	pkg3.KeyValuePairTest("tom")
+	var ttname = "hood"
+	const ccname = "nsa"
+
+	pkg3.KeyValuePairTest(ttname)
 
 }
