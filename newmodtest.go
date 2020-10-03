@@ -33,14 +33,6 @@ func main() {
 
 	pkg3.TestArraySlice()
 
-	// var ttname = "hood"
-	fmt.Println("please input a string below: ")
-	var yyname string
-	fmt.Scanln(&yyname)
-	const ccname = "nsa"
-
-	pkg3.KeyValuePairTest(yyname)
-
 	// test rune
 	fmt.Println('a')
 	fmt.Println('b')
@@ -57,5 +49,13 @@ func main() {
 	xx = 200
 	fmt.Println(xx)
 	// xx = "tom"
+
+	// var ttname = "hood"
+	fmt.Print("please input a string: ")
+	var yyname string
+	fmt.Scanln(&yyname)
+	const ccname = "nsa"
+
+	pkg3.KeyValuePairTest(yyname)
 
 }
