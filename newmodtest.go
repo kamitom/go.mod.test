@@ -58,4 +58,9 @@ func main() {
 
 	pkg3.KeyValuePairTest(yyname)
 
+	fmt.Print("input two string and 用space 隔開: ")
+	var t1, t2 int
+	fmt.Scanln(&t1, &t2)
+	fmt.Println("2個數字加總: ", t1+t2)
+
 }
